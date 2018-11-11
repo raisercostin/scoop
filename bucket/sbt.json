@@ -11,6 +11,9 @@
     "checkver": {
         "github": "https://github.com/sbt/sbt"
     },
+    "persist": [
+        "conf"
+    ],
     "autoupdate": {
         "url": "https://github.com/sbt/sbt/releases/download/v$version/sbt-$version.zip",
         "extract_dir": "sbt"
